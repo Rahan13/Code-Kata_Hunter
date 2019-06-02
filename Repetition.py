@@ -8,7 +8,7 @@ for i in range(0,len(b)):
         ind += 1
 c.sort()
 if(len(c)==0):
-    print("Unique")
+    print("unique")
 else:
     for i in range(0,len(c)):
         print(int(c[i]), end = " ")
